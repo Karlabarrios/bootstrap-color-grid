@@ -1,0 +1,57 @@
+/*HOJA DE ESTILOS*/
+
+/*COLORES DEL DOC
+Violeta #96A0D9
+Rosa #D98BBD 
+Amarillo #D9CC8F 
+Verde claro #96D9AD 
+Verde fuerte #71D99E
+Gris #D3D3D3*/
+
+/*GENERALES*/
+h1{
+    margin: 35px 0;
+}
+div{
+    color: white;
+    font-weight: 500;
+}
+
+/*ROWS*/
+.first div{
+    background-color:#96A0D9;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid white;
+}
+.second div{
+    background-color: #D98BBD;
+    border: 1px solid white;
+    padding: 12px;
+}
+.third{
+    background-color: #D3D3D3;
+    padding: 14px;
+}
+.third div{
+    background-color: #D9CC8F;
+    border: 1px solid white;
+    padding: 12px;
+}
+.fourth div{
+    background-color: #96D9AD;
+    border: 1px solid white;
+    padding: 12px 14px;
+}
+.fifth div{
+    background-color: #71D99E;
+    border: 1px solid white;
+    padding: 12px;
+}
+
+/* Extra small devices (less than 576px) */
+@media (max-width: 577px) {
+    h1{
+        padding: 0 20%;
+    }
+}

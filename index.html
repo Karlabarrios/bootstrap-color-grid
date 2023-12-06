@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BOOTSTRAP 5 - Color Grid</title>
-    <meta name="description" content="Práctica con Framework bootstrap c:">
+    <title>GRID DE COLORES BOOTSTRAP</title>
+    <meta name="description" content="Práctica de containers, filas y columnas con el framework Bootstrap :0">
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -22,8 +22,56 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header class="text-center">
+        <h1>GRID DE COLORES BOOTSTRAP</h1>
+    </header>
+    <!--Duda: ¿Si las sections son como un div por qué no se les puede aplicar a estas la clase container?-->
+    <section>
+        <div class="container">
+            <div class="row first">
+                <!--Probar <div class="col-12 col-md-3">MD 3 espacios<br>SM 12 espacios</div-->        
+                <div class="col-sm-12 col-md-3">MD 3 espacios<br>SM 12 espacios</div>
+                <div class="col-sm-12 col-md-3">MD 3 espacios<br>SM 12 espacios</div>
+                <div class="col-sm-12 col-md-3">MD 3 espacios<br>SM 12 espacios</div>
+                <div class="col-sm-12 col-md-3">MD 3 espacios<br>SM 12 espacios</div>
+            </div>
 
+            <div class="row second text-end justify-content-center">
+                <div class="col-8 col-md-4">MD 4 espacios<br>INICIAL 8 espacio</div>
+                <div class="col-8 col-md-4">MD 4 espacios<br>INICIAL 8 espacio</div>
+                <div class="col-8 col-md-4">MD 4 espacios<br>INICIAL 8 espacio</div>
+            </div>
 
+            <div class="row third text-center">
+                <div class="col-4 col-lg-6">LG 6 espacios<br>INICIAL 4 espacios</div>
+                <div class="col-8 col-lg-6">LG 6 espacios<br>INICIAL 8 espacios</div>
+            </div>
+
+            <div class="row fourth">
+                <div class="col-6 col-md-2">MD 2 espacios<br>INICIAL 6 espacios</div>
+                <div class="col-6 col-md-2">MD 2 espacios<br>INICIAL 6 espacios</div>
+                <div class="col-6 col-md-2">MD 2 espacios<br>INICIAL 6 espacios</div>
+                <div class="col-6 col-md-2">MD 2 espacios<br>INICIAL 6 espacios</div>
+                <div class="col-6 col-md-2">MD 2 espacios<br>INICIAL 6 espacios</div>
+                <div class="col-6 col-md-2">MD 2 espacios<br>INICIAL 6 espacios</div>
+            </div>
+
+            <div class="row fifth text-center">
+                <div class="col-12 col-sm-1">SM 1</div>
+                <div class="col-12 col-sm-1">SM 1</div>
+                <div class="col-12 col-sm-1">SM 1</div>
+                <div class="col-12 col-sm-1">SM 1</div>
+                <div class="col-12 col-sm-1">SM 1</div>
+                <div class="col-12 col-sm-1">SM 1</div>
+                <div class="col-12 col-sm-1">SM 1</div>
+                <div class="col-12 col-sm-1">SM 1</div>
+                <div class="col-12 col-sm-1">SM 1</div>
+                <div class="col-12 col-sm-1">SM 1</div>
+                <div class="col-12 col-sm-1">SM 1</div>
+                <div class="col-12 col-sm-1">SM 1</div>
+            </div>
+        </div>
+    </section>
 
 
     <!--Bootstrap script-->
